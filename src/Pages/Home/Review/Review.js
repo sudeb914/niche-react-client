@@ -12,9 +12,9 @@ const Review = () => {
             })
     }, [])
     return (
-        <div style={{ background: '#E8DAEF' }}>
+        <div style={{ background: '#c7ecee' }}>
             <Container className='py-5'>
-                <h3>Customers Satisfication</h3>
+                <h3 className="text-center">Customers Satisfication</h3>
                 <Row className='my-5'>
                     {
                         reviews.map(review => <EachReview review={review} key={review._id}></EachReview>)
