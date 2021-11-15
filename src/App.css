@@ -1,0 +1,9 @@
+.mcolor{
+  color:#dd3d53;
+}
+.hdark{
+  transition: 1s;
+}
+.hdark:hover{
+  color: rgba(27, 27, 27, 0.966) !important;
+}
